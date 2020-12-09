@@ -52,6 +52,5 @@ class ReportExport:
 
 
 report = ReportExport('Log: ', 'Test data')
-# result = report.export(ReportType.HTML)
-result = report.export('Test')
+result = report.export(ReportType.HTML)
 print(result)

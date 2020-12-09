@@ -18,8 +18,6 @@ class IPhoneNumber:
 class PhoneNumber(IPhoneNumber):
     def __init__(self, phone, office_code):
         IPhoneNumber.__init__(self, phone, office_code)
-        self.phone = phone
-        self.office_code = office_code
 
     def value_of(self):
         return f'{self.phone} add {self.office_code}'
